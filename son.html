@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع أتران تيفي - قريبًا</title>
+
+    <!-- إضافة مكتبة Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- إضافة خط Amiri و Cairo من Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+
+    <style>
+        /* تنسيق الجسم العام */
+        body {
+            font-family: 'Amiri', serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            direction: rtl;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* تنسيق العلبة الخاصة بالرسالة */
+        .message-box {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        /* تنسيق العنوان */
+        h1 {
+            color: #8e44ad;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* تنسيق النص */
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        /* تنسيق الصورة */
+        .coming-soon-image {
+            width: 150px; /* تحديد العرض */
+            margin-bottom: 20px;
+            border-radius: 8px; /* لتدوير الزوايا إذا أردت */
+        }
+
+        /* زر العودة */
+        .back-button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #2980b9;
+        }
+
+        /* تحسين التنسيق على الشاشات الصغيرة */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .back-button {
+                font-size: 14px;
+                padding: 8px 15px;
+            }
+
+            .coming-soon-image {
+                width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- علبة الرسالة -->
+    <div class="message-box">
+        <!-- إضافة الصورة هنا -->
+        <img src="https://i.postimg.cc/9F70XL6H/OIP.jpg" alt="قريبًا" class="coming-soon-image">
+
+        <h1>موقع أتران تيفي - قريبًا</h1>
+        <p>نحن في أتران تيفي نعمل على تطوير الموقع لنقدّم لكم تجربة مميزة قريبًا. شكرًا على انتظاركم!</p>
+        <!-- زر العودة إلى الصفحة الرئيسية -->
+        <button class="back-button" onclick="window.location.href='indox.html'">العودة إلى الصفحة الرئيسية</button>
+    </div>
+
+</body>
+</html>
